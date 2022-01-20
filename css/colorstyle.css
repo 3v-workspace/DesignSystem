@@ -188,10 +188,10 @@
    height: 100px;
 }
 .palettes-list{
-    margin: -50px 0px 0px 36px;
+    display: flex;
+    margin: -50px 0px 0px 38px;
 }
 .primary-palettes-item{
-    display: inline-flex;
     width: 27px;
     padding-left: 35px;
     color: #424242;
@@ -261,6 +261,7 @@
     border-radius: 0px 8px 8px 0px;
 }
 .palettes-secondary-list{
+    display: flex;
     margin: -18px 0px 0px 715px;
 }
 /* Palettes Color style end*/
@@ -272,9 +273,6 @@
 }
 .wrapper-for-palettes-title{
     display: flex;
-}
-.wrapper-for-palettes-title :first-child {
-    margin-right: 400px;
 }
 .light-text{
     margin: 80px 0px 0px 60px;
