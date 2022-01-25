@@ -13,12 +13,10 @@
         $(function(){
           $("#includedContent").load("header.html"); 
         });
-        plugins: [
         new webpack.ProvidePlugin({
         $: "jquery",
         jQuery: "jquery"
         })
-    ] 
     </script>
 </head>
 <body>
@@ -76,14 +74,14 @@
                 <div class="primary-palettes color-primary-900">
                     <button type="button" class="button-for-palettes color-element border-radius">
                         <input value="#09496C" class="input__primary"></input>
-                        <img src="/img/svg/copy.svg" class="image-palettes border-radius">
-                        <img src="/img/svg/copydone.svg" class="image-palettes-copydone border-radius"/></button>
+                        <img src="./img/svg/copy.svg" class="image-palettes border-radius">
+                        <img src="./img/svg/copydone.svg" class="image-palettes-copydone border-radius"/></button>
                 </div>
                 <div class="primary-palettes color-primary-800">
                     <button type="button" class="button-for-palettes color-element">
                         <input value="#135B80" class="input__primary"></input>
-                        <img src="/img/svg/copy.svg" class="image-palettes">
-                        <img src="/img/svg/copydone.svg" class="image-palettes-copydone"/></button>
+                        <img src="./img/svg/copy.svg" class="image-palettes">
+                        <img src="./img/svg/copydone.svg" class="image-palettes-copydone"/></button>
                 </div>
                 <div class="primary-palettes color-primary-700">
                     <button type="button" class="button-for-palettes color-element">
