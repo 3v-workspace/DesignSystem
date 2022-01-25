@@ -1,5 +1,6 @@
 const main = document.querySelector('.main');
 
+
 main.addEventListener("click", ({ target }) => {
     if (target.closest('.button-brand-color')) {
         const element = target.nextElementSibling;

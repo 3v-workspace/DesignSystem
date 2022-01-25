@@ -9,10 +9,16 @@
     <script src="./js/colors.js" defer></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/colorstyle.css">
-     <script> 
+     <script>
         $(function(){
           $("#includedContent").load("header.html"); 
         });
+        plugins: [
+        new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery"
+        })
+    ] 
     </script>
 </head>
 <body>
