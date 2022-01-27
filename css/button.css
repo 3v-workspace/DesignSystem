@@ -43,7 +43,9 @@ html{
     width: 165px;
     height: 40px;
     border-radius: 8px;
+    border: 1px solid #0C71BC;
     margin: 0px 136px 0px -20px;
+    background: #0C71BC;
     font-family: Roboto;
 }
 .button-first{
@@ -53,7 +55,6 @@ html{
     letter-spacing: 1.25px;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #0C71BC;
 }
 .button-second{
     font-weight: 500;
@@ -222,6 +223,7 @@ html{
 .button-second-secondary{
     background: #0C71BC;
     border-radius: 8px;
+    border: 2px solid #0C71BC;
     font-weight: 500;
     font-size: 14px;
     line-height: 130%;
@@ -232,6 +234,7 @@ html{
 .button-thrid-secondary{
     background: #0D509A;
     border-radius: 8px;
+    border: 2px solid #0C71BC;
     font-weight: 500;
     font-size: 14px;
     line-height: 130%;
