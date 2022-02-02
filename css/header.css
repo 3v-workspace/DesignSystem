@@ -54,8 +54,8 @@
     text-decoration: none;
 }
 .header__item__dropdown a.active{
-    color: #7FD0FB;
-    border-bottom: 3px solid #7FD0FB;
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
     padding-bottom: 14px;
 }
 .dropdown__arrow {
@@ -69,7 +69,6 @@ nav ul ul{
     position: absolute;
     padding: 0px 0px 0px 0px;
     top: 50px;
-    display: none;
 }
 nav ul li:hover > ul{
     width: 210px;
@@ -84,10 +83,14 @@ nav ul ul li{
     width: 210px;
     height: 38px;
     padding: 0px 0px 8px 0px;
-
 }
-.dropdown__header__list{
+.dropdown__header__list {
+    display: block;
+    overflow: hidden;
+    width: 210px;
+    height: 0px;
     padding: 8px 0px 0px 20px;
+    border-radius: 4px 4px 0px 0px;
 }
 .dropdown__header__list .dropdown__header__link{
     color: #424242;
