@@ -12,43 +12,56 @@
     <title></title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <script type="text/javascript">
+        var el=document.getElementById('headerId').getElementsByTagName('a');
+        var url=document.location.href;
+        var fragment = document.URL;
+        var isFragmentInUrl = url.indexOf(fragment) > -1;
+        for(var i=0;i<el.length; i++) {
+          if (el[i].href.indexOf(fragment) > -1 && isFragmentInUrl) {
+            el[i].className += 'active';
+          }
+        };
+    </script>
 </head>
-<header class="header">
-    <nav class="header__navigation">
-        <ul class="header__list">
-            <li class="header__item">
-                <a href="introduction.html">Introduction</a>
-            </li>
-            <li class="header__item">
-                <a href="index.html">Colors</a>
-            </li>
-            <li class="header__item">
-                <a href="typography.html">Typography</a>
-            </li>
-            <li class="header__item">
-                <a href="icons.html">Icons</a>
-            </li>
-            <li class="header__item__dropdown">
-                <a href="components.html">Components</a>
-                <ul class="dropdown__header__list">
-                    <li>
-                        <a href="button.html" class="dropdown__header__link">Buttons</a>
-                    </li>
-                    <li>
-                        <a href="inputs.html" class="dropdown__header__link">Inputs</a>
-                    </li>
-                    <li>
-                        <a href="#" class="dropdown__header__link">Tooltips</a>
-                    </li>
-                </ul>
-            </li>
-            <span class="dropdown__arrow"></span>
-            <li class="header__item">
-                <a href="layouts.html">Layouts</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+<div id="headerId">
+    <header class="header">
+        <nav class="header__navigation">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="introduction.html">Introduction</a>
+                </li>
+                <li class="header__item">
+                    <a href="index.html">Colors</a>
+                </li>
+                <li class="header__item">
+                    <a href="typography.html">Typography</a>
+                </li>
+                <li class="header__item">
+                    <a href="icons.html">Icons</a>
+                </li>
+                <li class="header__item__dropdown">
+                    <a href="components.html">Components</a>
+                    <ul class="dropdown__header__list">
+                        <li>
+                            <a href="button.html" class="dropdown__header__link">Buttons</a>
+                        </li>
+                        <li>
+                            <a href="inputs.html" class="dropdown__header__link">Inputs</a>
+                        </li>
+                        <li>
+                            <a href="tooltips.html" class="dropdown__header__link">Tooltips</a>
+                        </li>
+                    </ul>
+                </li>
+                <span class="dropdown__arrow"></span>
+                <li class="header__item">
+                    <a href="layouts.html">Layouts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</div>
 <body>
 </body>
 
