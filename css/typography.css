@@ -97,7 +97,7 @@
 }
 .subtitle1-style:after {
     margin: 15px 0px 0px 0px;
-    width: 480px;
+    width: 482px;
     content:"";
     border-top: 3px dotted #9D9D9D;
     font-size: 16px;
@@ -111,7 +111,7 @@
 }
 .subtitle2-style:after {
     margin: 15px 0px 0px 0px;
-    width: 485px;
+    width: 490px;
     content:"";
     border-top: 3px dotted #9D9D9D;
     font-size: 16px;
@@ -125,7 +125,7 @@
 }
 .body1-style:after {
     margin: 15px 0px 0px 0px;
-    width: 495px;
+    width: 500px;
     content:"";
     border-top: 3px dotted #9D9D9D;
     font-size: 16px;
@@ -139,7 +139,7 @@
 }
 .body2-style:after {
     margin: 10px 0px 0px 0px;
-    width: 500px;
+    width: 506px;
     content:"";
     border-top: 3px dotted #9D9D9D;
     font-size: 16px;
@@ -153,7 +153,7 @@
 }
 .button-style:after {
     margin: 10px 0px 0px 0px;
-    width: 487px;
+    width: 495px;
     content:"";
     border-top: 3px dotted #9D9D9D;
     font-size: 16px;
@@ -167,7 +167,7 @@
 }
 .caption-style:after {
     margin: 10px 0px 0px 0px;
-    width: 499px;
+    width: 508px;
     content:"";
     border-top: 3px dotted #9D9D9D;
     font-size: 16px;
@@ -181,7 +181,7 @@
 }
 .overline-style:after {
     margin: 10px 0px 0px 0px;
-    width: 485px;
+    width: 495px;
     content:"";
     border-top: 3px dotted #9D9D9D;
     font-size: 16px;
