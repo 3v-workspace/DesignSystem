@@ -18,7 +18,7 @@
         var fragment = document.URL;
         var isFragmentInUrl = url.indexOf(fragment) > -1;
         for(var i=0;i<el.length; i++) {
-          if (el[i].href.indexOf(fragment) > -1 && isFragmentInUrl) {
+          if (el[i].href.indexOf(fragment) > -1) {
             el[i].className += 'active';
           }
         };
