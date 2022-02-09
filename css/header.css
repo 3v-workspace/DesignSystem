@@ -95,7 +95,7 @@ nav ul ul li{
 .dropdown__header__list .dropdown__header__link{
     color: #424242;
     font-size: 16px;
-    line-height: 200%;
+    line-height: 210%;
 }
 .dropdown__header__list .dropdown__header__link:hover{
     display: block;
