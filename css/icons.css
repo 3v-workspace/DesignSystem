@@ -23,6 +23,7 @@
 }
 .wrapper-for-settingImg{
     width: 360px;
+    background: #FDFDFD;
 }
 .settingsImg{
    margin: 84px 0px 0px 113px;
@@ -69,7 +70,7 @@
 }
 .wrapperForTheLight{
     width: 649px;
-    height: 500px;
+    height: 300px;
     background: #FFFFFF;
     border: 1px solid #094A6C;
     box-sizing: border-box;
@@ -112,7 +113,7 @@
 }
 .wrapperForTheDark{
     width: 649px;
-    height: 500px;
+    height: 300px;
     background: #094A6C;
     border-radius: 16px;
     margin: 0px 0px 0px 23px;
