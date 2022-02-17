@@ -140,7 +140,7 @@ html{
 .button.active:after{
     transform: rotate(40deg);
 }
-.button_id_padding{
+.button_id{
     padding: 5px 10px 5px 0px;
     font-weight: 500;
     font-size: 16px;

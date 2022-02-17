@@ -9,10 +9,10 @@ main.addEventListener("click", ({ target }) => {
         if (target.innerHTML == "Copy")
         {
             target.innerHTML = "Copied";
-            setTimeout(function(){
-            window.location.reload(1);
-            }, 700); 
-        }   
+             setTimeout(function(){
+             window.location.reload(1);
+             }, 700); 
+        }
     }
 });
 main.addEventListener("click", ({ target }) => {
